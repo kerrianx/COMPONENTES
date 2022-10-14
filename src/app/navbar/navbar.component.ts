@@ -4,10 +4,7 @@ interface Persona {
   nombre: string;
   edad: number;
 }
-interface TuSeniora {
-  nombre: string;
-  descripcion: string;
-}
+
 
 const personas: Persona[] = [
   {
@@ -65,22 +62,7 @@ export class NavbarComponent  {
   numero2():void{
     this.numero-=1
   }    
-  anuncios:TuSeniora[]=[{
-    nombre:"cuca",
-    descripcion:"mis nalgas"
-
-  },
-  {
-    nombre:"cuca",
-    descripcion:"mis nalgas"
-
-  },
-  {
-    nombre:"cuca",
-    descripcion:"mis nalgas"
-
-  }
-  ]
+  
 
 }
 
